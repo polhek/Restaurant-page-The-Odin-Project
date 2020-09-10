@@ -16,4 +16,4 @@ Live demo you can find on this link: https://polhek.github.io/Restaurant-page-Th
 
 # Webpack
 
-In Webpack I also learned to use it's modules and pugins. So for CSS I used 'style-loader', 'css-loader'. And for images I used 'file-loader'. I also used 'Html-Webpack-Plugin' for making the html file from 'SRC' folder. And I used Babel for converting the newer Javascript code to older versions of it.
+In Webpack I also learned to use it's modules and plugins. So for CSS I used 'style-loader', 'css-loader'. And for images I used 'file-loader'. I also used 'Html-Webpack-Plugin' for making the html file from 'SRC' folder. And I used Babel for converting the newer Javascript code to older versions of it.
