@@ -45,7 +45,7 @@ const navigationBar = () => {
   }
 
   // Append everything to header...
-  content.appendChild(container);
+  
   container.appendChild(header);
   header.appendChild(pageTitle);
   pageTitle.appendChild(pageTitleText);

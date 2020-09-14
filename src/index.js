@@ -11,19 +11,19 @@ import { restaurantMenu } from "./restaurantMenu";
 import { contactUs } from "./contactUs";
 
 // First load of the page...
-const content = document.getElementById("content");
-content.appendChild(navigationBar());
+const contentPage = document.getElementById("content");
+contentPage.appendChild(navigationBar());
 mainContent();
 
 const navBar = document.querySelector("ul");
-const main = content.querySelector("main");
+const main = document.querySelector("main");
 
 for (let i = 0; i < navBar.children.length; i++) {
   let li = navBar.children[i];
 
   li.addEventListener("click", (event) => {
     let text = li.textContent;
-    const main = content.querySelector("main");
+    const main = document.querySelector("main");
 
     switch (text) {
       case "Home":
